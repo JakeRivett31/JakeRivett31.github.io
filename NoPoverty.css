@@ -1,0 +1,51 @@
+.parallaxA {
+		  /* The image used */
+		  background-image: url("images/AllGoals.gif");
+
+		  /* Set a specific height */
+		   
+		  height: 600px;
+		  
+
+		  /* Create the parallax scrolling effect */
+		  background-attachment: fixed;
+		  background-position: center;
+		  background-repeat: no-repeat;
+		  background-size: auto;
+		  background-color: #ea3732;
+
+		 
+  	}
+
+
+
+ul {
+  background-color: #ea3732;
+  border-left: 6px solid black;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  filter: none;
+  -webkit-filter: none;
+
+  
+}
+
+li a:hover:not(.active) {
+  background-color: #dfb23d;
+}
+
+.active {
+  background-color: #e53631;
+}
+
+h4 {
+  color: #ea3732;
+  letter-spacing: 25px;
+  font-size: 60px;
+}
+
+
+
+#eb3833, #d4a03a, #469b48, #c42d34, #ed4032, #45afd9, #f6b745, #902038, #ef6d39, #e23e85, #f49d3e, #cf8d36, #47773d, #297dbd, #5ebb46, #18558b, #163667
