@@ -1,8 +1,14 @@
+h1,h2,h3,h4,h5,h6,p {
+  font-family: 'Poppins';
+}
+
+
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
+  z-index: 2;
   
 }
 
@@ -18,19 +24,39 @@ li a {
   text-decoration: none;
 }
 
+h4 {
+  letter-spacing: 25px;
+  font-size: 60px;
+  margin: 0;
+  
+  top: 20%;
+  -ms-transform: translateY(50%);
+  transform: translateY(50%);
+}
+
 .first-main-icon-text-align {
   width: 100%; 
+  height: 200px;
   text-align: center;
+  
 }
 
 .top-left-icon {
   float: left;
 }
 
+
 .description-of-goal {
   display: inline-block;
+  position: static;
+  
 }
 
 .top-right-icon {
   float: right;
+}
+
+.statistics1 {
+  height: 400px;
+  width: 50%;
 }

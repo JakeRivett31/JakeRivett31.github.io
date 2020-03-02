@@ -1,3 +1,32 @@
+ul {
+  background-color: #ea3732;
+  border-style: solid;
+  border-color: black;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  
+
+  
+}
+
+h4 {
+  color: #ea3732;
+}
+
+h3 {
+	color: #ea3732;
+}
+
+li a:hover:not(.active) {
+  background-color: #dfb23d;
+}
+
+.active {
+  background-color: #e53631;
+}
+
 .parallaxA {
 		  /* The image used */
 		  background-image: url("images/AllGoals.gif");
@@ -13,38 +42,153 @@
 		  background-repeat: no-repeat;
 		  background-size: auto;
 		  background-color: #ea3732;
+		  border-style: solid;
+		  border-color: black;
 
 		 
   	}
 
+.rectangle {
+  height: 8px;
+  width: 665px;
+  background-color: #555;
+  z-index: 1;
+  margin-top: 20px;
+  background-color: black;
+}
 
+.flipboxes {
+	width: 100%;
+	height: 500px;
+}
 
-ul {
-  background-color: #ea3732;
-  border-left: 6px solid black;
-  overflow: hidden;
-  position: fixed;
-  top: 0;
+.flip-box {
+  background-color: transparent;
+  width: 400px;
+  height: 400px;
+  border: 1px solid #f1f1f1;
+  float: left;
+
+}
+
+.flip-box-inner {
+  
   width: 100%;
-  filter: none;
-  -webkit-filter: none;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
 
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  
+  backface-visibility: hidden;
+}
+
+.flip-box-front {
+  background-image: #bbb;
+  color: black;
+}
+
+.flip-box-back {
+  background-color: #ea3732;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.flip-box2 {
+  background-color: transparent;
+  width: 400px;
+  height: 400px;
+  border: 1px solid #f1f1f1;
+  float: right;
   
 }
 
-li a:hover:not(.active) {
-  background-color: #dfb23d;
+.flip-box-inner2 {
+  
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
 }
 
-.active {
-  background-color: #e53631;
+.flip-box2:hover .flip-box-inner2 {
+  transform: rotateY(180deg);
 }
 
-h4 {
-  color: #ea3732;
-  letter-spacing: 25px;
-  font-size: 60px;
+.flip-box-front2, .flip-box-back2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  
+  backface-visibility: hidden;
 }
+
+.flip-box-front2 {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-box-back2 {
+  background-color: #ea3732;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.countryInput {
+	text-align: center;
+
+}
+
+.countryInputText {
+	display: inline-block;
+	margin-right: 15px;
+}
+
+.countryInputBox {
+	height: 25px;
+	font-size: 20px;
+	display: inline-block;
+	margin-top: 5px;
+	font-family: 'Poppins';
+}
+
+.countryInputButton {
+	background-color:#ea3832;
+	border-radius:2px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Poppins';
+	font-size:20px;
+	padding:4px 30px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+	display: inline-block;
+	margin-right: 150px;
+}
+.countryInputButton:hover {
+	background-color:#de0000;
+}
+.countryInputButton:active {
+	position:relative;
+	top:1px;
+}
+
+.countryStatistics {
+
+}
+
+
 
 
 

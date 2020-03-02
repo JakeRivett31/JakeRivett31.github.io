@@ -1,59 +1,83 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>No Poverty</title>
+	<title>No Poverty</title>
 
 
-<link rel="stylesheet" href="main.css">
-<link rel="stylesheet" href="NoPoverty.css">
+	<link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" href="NoPoverty.css">
 
 </head>
 <body>
 
-<ul>
-  <li><a class="active" href="NoPovertyStage1.html">No Poverty</a></li>
-  <li><a id="zerohunger" href="ZeroHungerStage1.html">Zero Hunger</a></li>
-  <li><a href="#commonlink">Common Link</a></li>
-</ul>
+	<ul>
+		<li><a class="active" href="NoPovertyStage1.html">No Poverty</a></li>
+		<li><a id="zerohunger" href="ZeroHungerStage1.html">Zero Hunger</a></li>
+		<li><a href="#commonlink">Common Link</a></li>
+	</ul>
 
 
-<div class="parallaxA"></div>
+	<div class="parallaxA"></div>
 
 
 
-<div class = "first-main-icon-text-align">
+	<div class = "first-main-icon-text-align">
 
-	<div class = "top-left-icon">
-	<a href="https://imgbb.com/"><img src="https://i.ibb.co/wrm9Vv4/No-Poverty-Icon-Normal-Colours.png" alt="No-Poverty-Icon-Normal-Colours" border="0"></a> 
+		<div class = "top-left-icon">
+			<a href="https://imgbb.com/"><img src="https://i.ibb.co/wrm9Vv4/No-Poverty-Icon-Normal-Colours.png" alt="No-Poverty-Icon-Normal-Colours" border="0"></a> 
+		</div>
+		<div class = "description-of-goal">
+			<h4> Zero Poverty</h4>
+
+		<div class="rectangle"></div>
+
+		</div>
+
+		<div class = "top-right-icon">
+			<a href="https://imgbb.com/"><img src="https://i.ibb.co/KrktPBT/No-Poverty-Icon-Inverted-Colours.png" alt="No-Poverty-Icon-Inverted-Colours" border="0" align="right"></a>
+		</div>
 	</div>
-	<div class = "description-of-goal">
+`
+	<div class = "flipboxes">
+		<div class="flip-box">
+		 <div class="flip-box-inner">
+		   <div class="flip-box-front">
+		   	<img src = "images/ChildPoverty.jpg">
+		   </div>
+		   <div class="flip-box-back">
+		    <h2>Statistics</h2>
+		   </div>
+		  </div>
+		</div>
 
-	<h4>Zero Poverty</h4>
+		<div class="flip-box2">
+		 <div class="flip-box-inner2">
+		   <div class="flip-box-front2">
+		   	<h2>No Poverty</h2>
+		   </div>
+		   <div class="flip-box-back2">
+		    <h2>Statistics</h2>
+		   </div>
+		  </div>
+		</div>
+	</div>
+		
+	<div class = "countryInput">
+		<h3 class = "countryInputText">Input the country that you want to see statistics about here:   </h3>
+		
+		<input type="text" name="countryInputBox" class="countryInputBox" id="countryInputBox">
+
+		<button type="button" class="countryInputButton" id ="countryInputButton">Click Me!</button>
+
+		<p id="results"></p>
 	</div>
 
-	<div class = "top-right-icon">
-	<a href="https://imgbb.com/"><img src="https://i.ibb.co/KrktPBT/No-Poverty-Icon-Inverted-Colours.png" alt="No-Poverty-Icon-Inverted-Colours" border="0" align="right"></a>
-	</div>
-</div>
+	<div class = "countryStatistics"></div>
 
+	<img src="images/1NoPoverty.jpg" width=100%>
 
+	<iframe src="https://ourworldindata.org/grapher/share-of-the-population-living-in-extreme-poverty" style="width: 100%; height: 600px; border: 0px none;"></iframe>
 
-
-<img src="https://cdn1.imggmi.com/uploads/2020/2/11/562c237bd82354e05b7c34f5f10ef814-full.jpg" alt="3 Poverty Images" width=100%>
-
-<iframe src="https://ourworldindata.org/grapher/share-of-the-population-living-in-extreme-poverty" style="width: 100%; height: 600px; border: 0px none;"></iframe>
-
-<script>
-
-list = []
-x = window.prompt("sometext","defaultText");
-list.push(x);
-console.log(list);
-console.log(x);
-
-
-
-
-</script>
+<script src = "Feb25listen.js"></script>
 
 </html>
