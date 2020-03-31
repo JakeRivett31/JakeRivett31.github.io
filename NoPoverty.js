@@ -1,5 +1,3 @@
-console.log("Feb 25")
-
 document.getElementById("countryInputButton").onclick = clicked;
 
 
@@ -19,6 +17,30 @@ function clicked() {
 	}
 }
 
+
+
+//BIG IDEA: USING DOM TO ACCESS ELEMENTS
+document.getElementById("countryInputButton").onclick = clicked;
+
+
+
+//BIG IDEA: FUNCTIONS - LINKS TO OTHER LANGUAGES
+function clicked() {
+
+
+//BIG IDEA VARIABLES - LINKS TO OTHER LANGUAGES
+var value = document.getElementById("countryInputBox").value
+
+//BIG IDEA LOOPS - LINKS TO OTHER LANGUAGES
+for (i = 0; i < countries.length; i = i + 1) {
+//BIG IDEA CONDITIONAL STATEMENTS - LINKS TO OTHER LANGUAGES
+	if (value === countries[i]) {
+//print out the population
+		console.log(percentBelowPovertyLine[i]+"% of "+value+"'s population is below the International Poverty Line");
+		document.getElementById("results").innerHTML = (percentBelowPovertyLine[i]+"% of "+value+"'s population is below the International Poverty Line");
+		}
+	}
+}
 
 
 

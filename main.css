@@ -2,6 +2,10 @@ h1,h2,h3,h4,h5,h6,p {
   font-family: 'Poppins';
 }
 
+h5 {
+    font-size: 22px;
+    line-height: 40px;
+}
 
 ul {
   list-style-type: none;
@@ -47,9 +51,9 @@ h4 {
 
 
 .description-of-goal {
-  display: inline-block;
-  position: static;
-  
+    display: inline-block;
+    position: static;
+    color: black;
 }
 
 .top-right-icon {

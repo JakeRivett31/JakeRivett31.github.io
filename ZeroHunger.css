@@ -1,5 +1,5 @@
 ul {
-  background-color: #ea3732;
+  background-color: #d09f38;
   border-style: solid;
   border-color: black;
   overflow: hidden;
@@ -11,26 +11,26 @@ ul {
   
 }
 
-h4 {
-  color: #ea3732;
-}
-
-h3 {
-	color: #ea3732;
-}
-
 h5 {
-    background: -webkit-repeating-linear-gradient(#ea3732, #ea3732 40px, black 40px, black 80px);
+    background: -webkit-repeating-linear-gradient(#d09f38, #d09f38 40px, black 40px, black 80px);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
 
+h4 {
+  color: #d09f38;
+}
+
+h3 {
+	color: #d09f38;
+}
+
 li a:hover:not(.active) {
-  background-color: #dfb23d;
+  background-color: #d09f38;
 }
 
 .active {
-  background-color: #e53631;
+  background-color: #d09f38;
 }
 
 .parallaxA {
@@ -47,7 +47,7 @@ li a:hover:not(.active) {
 		  background-position: center;
 		  background-repeat: no-repeat;
 		  background-size: auto;
-		  background-color: #ea3732;
+		  background-color: #d09f38;
 		  border-style: solid;
 		  border-color: black;
 
@@ -69,7 +69,7 @@ li a:hover:not(.active) {
     text-align: center;
 }
 
-.NoPovertyIntro {
+.ZeroHungerIntro {
     display: inline-block;
     position: static;
     width: 600px;
@@ -157,17 +157,17 @@ li a:hover:not(.active) {
   transform: rotateY(180deg);
 }
 
-.countryInput {
+.HungercountryInput {
 	text-align: center;
 
 }
 
-.countryInputText {
+.HungercountryInputText {
 	display: inline-block;
 	margin-right: 15px;
 }
 
-.countryInputBox {
+.HungercountryInputBox {
 	height: 25px;
 	font-size: 20px;
 	display: inline-block;
@@ -175,8 +175,8 @@ li a:hover:not(.active) {
 	font-family: 'Poppins';
 }
 
-.countryInputButton {
-	background-color:#ea3832;
+.HungercountryInputButton {
+	background-color: #d09f38;
 	border-radius:7px;
 	display:inline-block;
 	cursor:pointer;
@@ -188,18 +188,18 @@ li a:hover:not(.active) {
 	text-shadow:0px 1px 0px #2f6627;
 	display: inline-block;
 }
-.countryInputButton:hover {
-	background-color:#de0000;
-}
-.countryInputButton:active {
+
+.HungercountryInputButton:active {
 	position:relative;
 	top:1px;
 }
 
-#results {
+#Hungerresults {
     font-family: 'Poppins';
     font-size: 18px;
 }
+
+
 
 
 
