@@ -1,65 +1,88 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Main Page</title>
-	
-	<style>
-    
-    table, td, th {
-      border: 1px solid black;
-      padding: 10px;
-    } 
-
-    h1 {
-    	text-decoration: underline;
-
-    	color: blue;
-    }
-
-    h1 {
-    	color: red;
-    }
+	<title>No Poverty</title>
 
 
- 
-
-    </style>
+	<link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" href="NoPoverty.css">
 
 </head>
 <body>
 
-	<h1>Work Record</h1>
-	<p>This site should not have any adornment</p>
-	<p>Second p tag</p>
-	<h2>Activity 1: UN Sustainability Goals Site</h2>
-	   
-	<table>
+	<ul>
+		<li><a class="active" href="NoPoverty.html">No Poverty</a></li>
+		<li><a id="zerohunger" href="ZeroHunger.html">Zero Hunger</a></li>
+		<li><a href="CommonLink.html">Common Link</a></li>
+	</ul>
 
-	  <tr>
-	    <th>Stage</th>
-	    <th>Link</th>
-	    <th>Short Description</th>
-	  </tr>
 
-	  <tr>
-	    <td>Stage 1</td>
-	    <td>https://github.com/PMiskew/pmiskew.github.io/blob/master/Activity%201/ungoalstep1.html</td>
-	    <td>This is what I did</td>
-	  </tr>
+	<div class="parallaxA"></div>
 
-	  <tr>
-	    <td>Stage 1</td>
-	    <td>https://github.com/PMiskew/pmiskew.github.io/blob/master/Activity%201/ungoalstep1.html</td>
-	    <td>This is what I did</td>
-	  </tr>
 
-	  
-	  <tr>
-	    <td>Stage 1</td>
-	    <td>https://github.com/PMiskew/pmiskew.github.io/blob/master/Activity%201/ungoalstep1.html</td>
-	    <td>This is what I did</td>
-	  </tr>
 
-	</table>
-</body>
+	<div class = "first-main-icon-text-align">
+
+		<div class = "top-left-icon">
+			<a href="https://imgbb.com/"><img src="https://i.ibb.co/wrm9Vv4/No-Poverty-Icon-Normal-Colours.png" alt="No-Poverty-Icon-Normal-Colours" border="0"></a> 
+		</div>
+		<div class = "description-of-goal">
+			<h4> No Poverty</h4>
+
+		<div class="rectangle"></div>
+
+		</div>
+
+		<div class = "top-right-icon">
+			<a href="https://imgbb.com/"><img src="https://i.ibb.co/KrktPBT/No-Poverty-Icon-Inverted-Colours.png" alt="No-Poverty-Icon-Inverted-Colours" border="0" align="right"></a>
+		</div>
+	</div>
+`
+	<div class = "FlipboxIntro">
+		<div class="flip-box">
+		 <div class="flip-box-inner">
+		   <div class="flip-box-front">
+		   	<img src = "images/ChildPoverty1.jpg">
+		   </div>
+		   <div class="flip-box-back">
+		    <img src = "images/ChildPoverty2.jpg">
+		   </div>
+		  </div>
+		</div>
+    <div class = "NoPovertyIntro">
+        <h5>Eradicating poverty is not a task of charity, it is an act of justice and the key to unlocking an enormous human potential. Still, nearly half of the world’s population lives in poverty, and lack of food and clean water is killing thousands every single day of the year. Together, we can feed the hungry, wipe out disease and give everyone in the world a chance to prosper and live a productive and rich life.
+
+</h5>
+        </div>
+		<div class="flip-box2">
+		 <div class="flip-box-inner2">
+		   <div class="flip-box-front2">
+		   	<img src = "images/ChildPoverty3.jpg">
+		   </div>
+		   <div class="flip-box-back2">
+		    <img src = "images/ChildPoverty4.jpg">
+		   </div>
+		  </div>
+		</div>
+    </div>
+   
+    <iframe src="https://ourworldindata.org/grapher/share-of-the-population-living-in-extreme-poverty" style="width: 100%; height: 600px; border: 0px none;"></iframe>
+
+	<div class = "countryInput">
+		<h3 class = "countryInputText">Input the country that you want to see statistics about here:   </h3>
+		
+		<input type="text" name="countryInputBox" class="countryInputBox" id="countryInputBox">
+
+		<button type="button" class="countryInputButton" id ="countryInputButton">Submit</button>
+
+		<p id="results"></p>
+	</div>
+
+	<div class = "countryStatistics"></div>
+
+	<img src="images/1NoPoverty.jpg" width=100%>
+
+	
+<script src = "NoPoverty.js"></script>
+
 </html>

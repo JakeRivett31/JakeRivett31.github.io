@@ -7,7 +7,7 @@ var percentBelowPovertyLine = [82.5,72.3,70.7,70.2,70,70,67,66.2,66,64.6,63,63,6
 
 
 function clicked() {
-	var value = document.getElementById("countryInputBox").value
+	var value = document.getElementById("countryInputBox").value.toLowerCase()
 	console.log(value);
 
 	for(i = 0; i < countries.length; i = i + 1) {
